@@ -24,21 +24,21 @@ $pkgs = @(
 )
 
 function InstallApp {
-	param(
-		[string]$Package
-	)
+    param(
+        [string]$Package
+    )
 
-	Write-Host "Installing $pkg..."
-	choco install $Package
+    Write-Host "Installing $pkg..."
+    choco install $Package
 }
 
 function SetupApps {
-	$count=$pkgs.Count
-	Write-Host "Installing $count packages..."
-	foreach ($pkg in $pkgs) {
-		InstallApp -Package $pkg
-	}
-	Write-Host "Done."
+    $count=$pkgs.Count
+    Write-Host "Installing $count packages..."
+    foreach ($pkg in $pkgs) {
+        InstallApp -Package $pkg
+    }
+    Write-Host "Done."
 }
 
 SetupApps
