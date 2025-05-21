@@ -28,7 +28,7 @@ function InstallApp {
         [string]$Package
     )
 
-    Write-Host "Installing $pkg..."
+    Write-Host "Installing $Package..."
     choco install $Package
 }
 
