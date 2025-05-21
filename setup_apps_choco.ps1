@@ -1,6 +1,6 @@
 # PowerShell script to install applications I commonly use on Windows 10/11.
 # Install Chocolately (choco) package manager first.
-# Written by Sam Saint-Pettersen <s dot pettersen +github at gmail dot com>
+# Written by Sam Saint-Pettersen <s dot stpettersen +github at gmail dot com>
 
 $pkgs = @(
     "brave"
