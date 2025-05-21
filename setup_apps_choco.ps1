@@ -4,6 +4,7 @@
 
 $pkgs = @(
     "brave"
+    "7zip"
     "powertoys"
 	"sumatrapdf"
 	"notepadplusplus"
